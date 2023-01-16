@@ -1,0 +1,102 @@
+/* TABLES */
+
+.table-view,
+.table-view .column-header,
+.table-view .column-header-background .filler,
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+ 
+.table-view .column-header-background{
+    -fx-background-color: white;
+}
+
+.table-view .table-cell{
+	-fx-text-fill: white;
+    -fx-border-color: grey;
+    -fx-padding: 7px;
+}
+
+.table-row-cell:hover {
+    -fx-font-size:15px;
+   	-fx-font-weight: bold;
+}
+ 
+.table-row-cell:odd{
+    -fx-background-color: #141414;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #080808;
+   	
+    
+}
+
+.table-row-cell:selected{
+    -fx-background-color: transparent;
+    -fx-text-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 2px;
+    -fx-font-size:15px;
+   	-fx-font-weight: bold;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  black;
+}
+
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+/* Pie Chart */
+
+
+/* Bar Chart */
+.chart{
+	-fx-background-color:transparent;
+	-fx-font-size: 12px;
+}
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-title {
+  	-fx-font-size:20px;
+ 	 -fx-font-weight: bold;
+}
+.chart-bar {
+    -fx-background-color: grey;
+    -fx-background-radius: 15px;
+    -fx-background-position: left center;
+}
+
+.axis {
+    -fx-font-size: 3em;    
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
